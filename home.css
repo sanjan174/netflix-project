@@ -1,0 +1,527 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 15px;
+    box-shadow: 0px 2px 5px black(0,0,0,0.1);
+    position: relative;
+    
+    
+}
+.logo-name{
+    font-size: 40px;
+    background-color: black;
+    color: red;
+    padding: 15px;
+    border-radius: 5px;
+}
+.nav-links li  {
+    display: inline;
+    margin-left: 20px;
+
+}
+.nav-links li a{
+    color: red;
+    text-decoration: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+.nav-links li a:hover{
+    background-color: red;
+    color: white;
+    
+}
+.transparent{
+    color: white;
+    text-align: center;
+    padding: 75px;
+    position: relative;
+    top: 100px;
+    
+}
+.aaa{
+    color: aliceblue;
+    text-align: center;
+    position: relative ;
+    bottom: 50px;
+}
+.transparent h1{
+    font-size: 3rem;
+    position: relative;
+    bottom: 50px;
+    
+    
+}
+ .img img{
+    width: 1400px;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+
+}
+p{
+    color: white;
+}
+
+.email{
+    position: relative;
+    height: 50px;
+    width: 400px;
+    border: 2px solid white;
+    color: white;
+    bottom: 100px;
+    left: 370px;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+.get{
+    position:relative;
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    color: white;
+    background-color: red;
+    bottom:150px;
+    left: 790px;
+    border-radius: 30px;
+    text-align: center;
+}
+ .trend h3{
+    font-size: 25px;
+    position: absolute;
+    color: aliceblue;
+    left:30px ;
+    
+}
+.box{
+    height: 1350px;
+    width: 1400px;
+    
+    position: relative;
+}
+.box1{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px;
+    left: 40px;
+}
+.box2{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px; 
+    left: 400px;
+}
+.box3{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px; 
+    left: 770px;
+}
+.box4{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px; 
+    left: 1130px;
+}
+.box1 img{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 1px;
+}
+.box2 img{
+    height: 250px;
+    width: 200px;
+    position:absolute;
+    top: 1px;
+}
+.box3 img{
+    height: 250px;
+    width: 200px;
+    position:absolute;
+    top: 1px;
+}
+.box4 img{
+    height: 250px;
+    width: 200px;
+    position:absolute;
+    top: 1px;
+}
+.only h3{
+    font-size: 25px;
+    position: absolute;
+    color: aliceblue;
+    left: 30px;
+    top: 1100px;
+}
+.box5{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px;
+    left: 40px;
+    top: 1200px;
+}
+.box6{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px;
+    left: 400px;
+    top: 1200px;
+}
+.box7{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px;
+    left: 770px;
+    top: 1200px;
+}
+.box8{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px;
+    left: 1130px;
+    top: 1200px;
+}
+.box5 img{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 1px;
+}
+.box6 img{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 1px;
+}
+.box7 img{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 1px;
+}
+.box8 img{
+    height: 250px;
+    width: 200px;
+    position: absolute;
+    top: 1px;
+}
+.con h3{
+    font-size: 25px;
+    position: absolute;
+    color: aliceblue;
+    left: 30px;
+    top: 1490px
+}
+.con h3{
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    left: 30px;
+    top: 1500px;
+}
+.box9{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px;
+    left: 40px;
+    top: 1630px;
+}
+.box10{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px;
+    left: 400px;
+    top: 1630px;
+}
+.box11{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px;
+    left: 770px;
+    top: 1630px;
+}
+.box12{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    background-color: darkred;
+    display: inline-block;
+    border: 7px solid white;
+    top: 100px;
+    border-radius: 5px;
+    left: 1130px;
+    top: 1630px; 
+}
+.box9 .mob{
+    text-align: center;
+    font-size: 16px;
+    color: azure;
+    text-decoration: underline;
+}
+.box10 .bas{
+    text-align: center;
+    font-size: 16px;
+    color: azure;
+    text-decoration: underline;
+}
+.box11 .sta{
+    text-align: center;
+    font-size: 16px;
+    color: azure;
+    text-decoration: underline;
+}
+.box12 .pre{
+    text-align: center;
+    font-size: 16px;
+    color: azure;
+    text-decoration: underline;
+
+}
+.box9 li{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box10 li{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box11 li{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box12 li{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.rectangle h3{
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    left: 30px;
+    top: 1950px;
+}
+.rect1{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect1 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect2{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect2 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect3{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect3 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect4{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect4 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect5{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect5 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect6{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: relative;
+    left: 40px;
+    transition: background-color 0.5s;
+}
+.rect6 p{
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.rect1:hover{
+    background-color: darkred;
+    color: aliceblue;
+}
+.rect2:hover{
+    background-color: darkred;
+    color: aliceblue;
+}
+.rect3:hover{
+    background-color:darkred;
+    color: aliceblue;
+}
+.rect4:hover{
+    background-color: darkred;
+    color: aliceblue;
+}
+.rect5:hover{
+    background-color: darkred;
+    color: aliceblue;
+}
+.rect6:hover{
+    background-color: darkred;
+    color: aliceblue;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-section a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
