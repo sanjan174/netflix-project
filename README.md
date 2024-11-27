@@ -1,2 +1,3 @@
 # netflix-project
-In this code we are using html and css.
+Replica of netflix website where we have used html and css code.
+
